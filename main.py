@@ -35,7 +35,7 @@ def main():
     makedirs(config.summary_dir)
     makedirs(config.checkpoint_dir)
 
-    # set logger
+    # set logger926
     path = os.path.dirname(os.path.abspath(__file__))
     path1 = os.path.join(path, 'core/model.py')
     path2 = os.path.join(path, 'core/train.py')
